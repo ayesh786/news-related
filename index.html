@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+    <nav class="navbar bg-light mb-4">
+        <div class="container-fluid">
+
+            <input
+                id="news"
+                class="form-control me-2"
+                type="search"
+                placeholder="Search News">
+
+            <button onclick="getnews()" class="btn btn-success">
+                Search
+            </button>
+
+        </div>
+    </nav>
+
+    <h1 class="text-center mb-4">Latest News</h1>
+
+    <div class="row" id="getdiv">
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
